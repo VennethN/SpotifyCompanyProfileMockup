@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &243832586499184282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5874471482668033144}
+  - component: {fileID: 9135477270169383784}
+  m_Layer: 0
+  m_Name: GameVFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5874471482668033144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243832586499184282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3261058, y: -1.6508923, z: -0.21939985}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9135477270169383784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243832586499184282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9d3fd1df66753468c48cb4c0c58985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleInfos:
+  - particleName: BlueBurst
+    particleC: {fileID: 4763699491080288152, guid: 2e348d54b71e79d468c73616b53d6267, type: 3}
+  - particleName: PurpleBurst
+    particleC: {fileID: 4763699491080288152, guid: 90dad5aa2de735b4aa915a606fa434d8, type: 3}
+  - particleName: RedBurst
+    particleC: {fileID: 4763699491080288152, guid: 311d054cd741eee4f837eca69d7db0e4, type: 3}
+  - particleName: YellowBurst
+    particleC: {fileID: 4763699491080288152, guid: 43b260a940383804a914c0bd0d816a72, type: 3}
+  - particleName: GreenBurst
+    particleC: {fileID: 4763699491080288152, guid: 43b260a940383804a914c0bd0d816a72, type: 3}
+  - particleName: SpotifyGreenBurst
+    particleC: {fileID: 4763699491080288152, guid: 232183475a13b524c8818e6f8953422d, type: 3}
